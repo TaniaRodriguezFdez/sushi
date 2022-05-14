@@ -1,0 +1,67 @@
+ body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+  }
+ header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    color: #000000;
+  }
+  header .img-logo {
+    width: 80px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/fondo\ sushi.jpg);
+  }
+  .cont-img-main {
+    width: auto;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+    background-image: url(/img/preparation.jpg);
+  }
+  .sections-container {
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+  }
+  .ingredients {
+    background-color: rgba(228, 143, 135, 0.92);
+  }
+  h3{
+    padding-bottom: 10px;
+  }
+  main .ingredients {
+    padding: 30px;
+    width: 50%;
+  }
+  .time {
+    width: 50%;
+    padding: 25px 20px;
+    background-color: rgba(141, 194, 176, 0.833);
+  }
+  .preparation{
+    padding: 20px;
+    width: 49%;
+    background-color: rgba(246, 239, 147, 0.853);
+    text-align: justify;
+  } 
+  footer{
+    display: flex;
+    text-align: center;
+    font-size: small;
+  }
+

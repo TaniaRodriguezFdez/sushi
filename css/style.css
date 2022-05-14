@@ -14,8 +14,8 @@
   h1 {
     color: #000000;
   }
-  header .img-logo {
-    width: 80px;
+  .img-logo {
+    width: 85px;
   }
   
   main {
@@ -36,17 +36,14 @@
   .sections-container {
     display: flex;
     margin-top: 15px;
-    width: 100%;
-  }
-  .ingredients {
-    background-color: rgba(228, 143, 135, 0.92);
   }
   h3{
     padding-bottom: 10px;
   }
-  main .ingredients {
+  .ingredients {
     padding: 30px;
-    width: 50%;
+    width: 90%;
+    background-color: rgba(228, 143, 135, 0.92);
   }
   .time {
     width: 50%;
@@ -54,8 +51,8 @@
     background-color: rgba(141, 194, 176, 0.833);
   }
   .preparation{
-    padding: 20px;
-    width: 49%;
+    padding: 20px 40px;
+    width: 57%;
     background-color: rgba(246, 239, 147, 0.853);
     text-align: justify;
   } 
